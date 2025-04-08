@@ -40,9 +40,11 @@
 }
 
 @media screen and (max-width: 767px) {
-     
+   .header-section {
+        height: 800px;
+     }
     .h3 {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     .primary-btn {
         width: 100%;
@@ -76,7 +78,13 @@
 :root {
     --padding-inline-section:10px;
 }
+.primary-btn {
+    width: 100%;
+}
 
+.header-section {
+    padding-bottom: 80px;
+}
 h1 {
     font-size: 2rem;
 }
